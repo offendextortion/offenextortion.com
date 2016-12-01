@@ -1,0 +1,61 @@
+;; 
+;; Domain:     offendextortion.com
+;; Exported:   2016-12-01 19:09:50
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	offendextortion.com.	root.offendextortion.com.	(
+		2023228599	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
+
+
+
+;; NS Records (YOU MUST CHANGE THIS)
+offendextortion.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+offendextortion.com.	300	IN	MX	5	gmr-smtp-in.l.google.com.
+offendextortion.com.	300	IN	MX	40	alt4.gmr-smtp-in.l.google.com.
+offendextortion.com.	300	IN	MX	20	alt2.gmr-smtp-in.l.google.com.
+offendextortion.com.	300	IN	MX	10	alt1.gmr-smtp-in.l.google.com.
+offendextortion.com.	300	IN	MX	30	alt3.gmr-smtp-in.l.google.com.
+
+;; CNAME Records
+
+;; A Records (IPv4 addresses)
+www.offendextortion.com.	300	IN	A	216.239.32.21
+www.offendextortion.com.	300	IN	A	216.239.34.21
+www.offendextortion.com.	300	IN	A	216.239.36.21
+www.offendextortion.com.	300	IN	A	216.239.38.21
+assets.offendextortion.com.	300	IN	A	192.30.252.153
+assets.offendextortion.com.	300	IN	A	192.30.252.154
+offendextortion.com.	300	IN	A	198.143.170.44
+
+;; AAAA Records (IPv6 addresses)
+www.offendextortion.com.	300	IN	AAAA	2001:4860:4802:32::15
+www.offendextortion.com.	300	IN	AAAA	2001:4860:4802:34::15
+www.offendextortion.com.	300	IN	AAAA	2001:4860:4802:36::15
+www.offendextortion.com.	300	IN	AAAA	2001:4860:4802:38::15
